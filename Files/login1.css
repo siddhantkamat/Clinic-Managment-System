@@ -1,0 +1,123 @@
+body{
+  background-image: url("seven.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size:  cover;
+  background-repeat: repeat;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.top{
+  float: right;
+  margin-top: -150px;
+}
+.top ul li{
+  display: inline-block;
+  float: left;
+  border-left: 1px solid rgb(31, 132, 224);
+}
+
+.top ul li a{
+  font-family: 'Ropa Sans', sans-serif;
+  background:#3391E7;
+  color: #fff;
+  text-transform: uppercase;
+  padding:30px;
+}
+.top ul li a{
+  display: block !important;
+
+}
+.top ul li a:hover{
+}
+
+
+.top li.active> a, .top li> a:hover {
+	background: rgb(50, 133, 209);
+	border-left-color:rgb(50, 133, 209);
+}
+.act{
+  height:130px;
+}
+#he{
+  float: left;
+}
+#h{
+  float: left;
+}
+h3{
+  color: rgb(255,51,51);
+}
+
+.head{
+  background-color: rgba(64, 64, 64, 0.3);
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 83%;
+}
+.note{
+  background-color: rgba(204, 204, 255,0.3);
+  background-repeat: no-repeat;
+  height:350px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+.era{
+  background-color: rgba(128,128,128, 0.3);
+  background-repeat: no-repeat;
+  height:330px;
+  width: 120%;
+  border-radius: 5px;
+  border-style: groove;
+}
+.new{
+  font-size: 20px;
+}
+.address{
+  float: left;
+}
+.he1{
+  float: left;
+}
+
+.list1 {
+  float: left;
+  padding-right: 30px;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+.list1 h2{
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+	font-family: 'Ropa Sans', sans-serif;
+	font-weight : normal;
+	letter-spacing: -1px;
+}
+.list1 h2:hover{
+  background-color:rgb(204, 0, 0);
+  border-radius: 5px;
+}
+.footer1{
+	background:#e0e7eb;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+
+}
+.footer{
+	float:left;
+}
+.footer ul li{
+	display:inline-block;
+}
+.footer ul li a{
+	font-family: 'Ropa Sans', sans-serif;
+	color:rgb(139, 139, 139);
+	text-transform: uppercase;
+	display: block;
+	margin-right:10px;
+}

@@ -1,0 +1,119 @@
+body{
+  background-image: url("five.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.new{
+  background-color: rgba(160, 160, 160, 0.3);
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 40%;
+  text-align: center;
+  border-radius: 3px;
+}
+.new>a{
+  text-decoration: underline;
+}
+.new{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 400px;
+  }
+  input{
+    border-radius: 4px;
+    margin-top:17px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width: 200px;
+    height:30px;
+  }
+  #head:hover{
+    background-color: rgb(255, 153, 51);
+    color: black;
+  }
+  #head{
+      border-radius: 50px;
+      height: 30px;
+  }
+  #head1{
+    float: left;
+    margin-left: 10px;
+    color: rgb(204, 0, 0);
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .top{
+    background-color: rgba(255, 255,255, 0.3);
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 100%;
+  }
+  .head{
+    float: left;
+  }
+  .top ul li{
+    display: inline-block;
+    float: left;
+    border-left: 1px solid rgb(31, 132, 224);
+  }
+  .up{
+    float: right;
+    margin-top: -30px;
+  }
+  .top ul li a{
+    font-family: 'Ropa Sans', sans-serif;
+    background:#3391E7;
+    color: #fff;
+    text-transform: uppercase;
+    padding:30px;
+  }
+  h2{
+    color: rgb(128,128,128);
+  }
+  .top ul li a{
+    display: block;
+
+  }
+  .font{
+    color: rgb(64,64,64);
+  }
+  .top ul li a:hover{
+  }
+  .head{
+    margin-left: 25px;
+    margin-top: 2px;
+  }
+  .top li.active> a, .top li> a:hover {
+  	background: rgb(50, 133, 209);
+  	border-left-color:rgb(50, 133, 209);
+  }
+  .act{
+    height:130px;
+  }
+  .footer1{
+  	background:#e0e7eb;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 100%;
+
+  }
+  .footer{
+  	float:left;
+  }
+  .footer ul li{
+  	display:inline-block;
+  }
+  .footer ul li a{
+  	font-family: 'Ropa Sans', sans-serif;
+  	color:rgb(139, 139, 139);
+  	text-transform: uppercase;
+  	display: block;
+  	margin-right:10px;
+  }

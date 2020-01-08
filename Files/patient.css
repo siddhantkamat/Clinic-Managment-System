@@ -1,0 +1,252 @@
+body{
+  background-image: url("seven.jpg");
+  background-size: cover;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a{
+  text-decoration: none;
+}
+.top{
+  background-image: url("dash1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 65px;
+  width: 100%;
+  margin-top: -4px;
+}
+.top ul li{
+  display: inline-block;
+  float: left;
+  border-left: 1px solid rgb(31, 132, 224);
+}
+.up{
+  float: right;
+  margin-top: -30px;
+}
+.top ul li a{
+  font-family: 'Ropa Sans', sans-serif;
+  background:#3391E7;
+  color: #fff;
+  text-transform: uppercase;
+  padding:30px;
+}
+h2{
+  color: rgb(128,128,128);
+}
+
+h2{
+  color: rgb(128,128,128);
+}
+
+.top ul li a{
+  display: block;
+
+}
+.font{
+  color: rgb(64,64,64);
+}
+.top ul li a:hover{
+}
+.head{
+  margin-left: 25px;
+  margin-top: 2px;
+}
+.top li.active> a, .top li> a:hover {
+	background: rgb(50, 133, 209);
+	border-left-color:rgb(50, 133, 209);
+}
+.act{
+  height:130px;
+}
+.footer1{
+	background:#e0e7eb;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+
+}
+.footer{
+	float:left;
+}
+.footer ul li{
+	display:inline-block;
+}
+.footer ul li a{
+	font-family: 'Ropa Sans', sans-serif;
+	color:rgb(139, 139, 139);
+	text-transform: uppercase;
+	display: block;
+	margin-right:10px;
+}
+.dash{
+  margin-top: 45px;
+  background-image: url("dash3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 80%;
+  height: 70%;
+  text-align: left;
+}
+.none{
+  border-radius: 20px;
+  height: 50px;
+  width:133px;
+  margin-left: 4px;
+  color: #fff;
+  text-transform: uppercase;
+font-family: 'Ropa Sans', sans-serif;
+background-color: rgb(96,96, 96);
+}
+.book{
+  margin-left: 190px;
+  margin-top: -200px;
+  color: rgb(96,96,96);
+  text-transform: uppercase;
+font-family: 'Ropa Sans', sans-serif;
+}
+.book1{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Ropa Sans', sans-serif;
+  margin-top: -300px;
+  font-size: 35px;
+}
+.none:hover{
+  background-color: rgb(0,128,255);
+
+}
+.num{
+  color: black;
+
+}
+#yo{
+  float: left;
+  margin-top: 20px;
+  font-size: 1em;
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: rgb(96, 96, 96);
+  color: #fff;
+}
+#yo:hover{
+  background-color: rgb(0, 128, 255);
+}
+.book input[type="date"]{
+  padding: 5px 17px;
+}
+
+.book input[type="time"]{
+  padding: 5px 25px;
+}
+.Profile{
+  margin-left: 180px;
+  margin-top: -300px;
+}
+
+.Profile input[type="submit"]{
+  padding: 10px 20px;
+  float: left;
+  margin-top: 8px;
+  font-size: 1em;
+	font-family: 'Ropa Sans', sans-serif;
+	background-color: rgb(96,96, 96);border: #fff 1px solid;	border-radius: 10px;
+}
+.Profile input[type="submit"]:hover{
+	background-color:rgb(51,153,255);
+}
+.log{
+  margin-top: -280px;
+  margin-right: 20px;
+  float: right;
+}
+.log a{
+  color: rgb(192, 192, 192);
+  text-decoration: underline;
+  font-size: 18px;
+}
+.log1{
+  margin-top: -360px;
+  margin-right: 20px;
+  float: right;
+}
+.log1 a{
+  color: rgb(192, 192, 192);
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.log2{
+  margin-top: -400px;
+  margin-right: 20px;
+  float: right;
+}
+.log2 a{
+  color: rgb(192, 192, 192);
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.log3{
+  margin-top: -400px;
+  margin-right: 20px;
+  float: right;
+}
+.log3 a{
+  color: rgb(192, 192, 192);
+  text-decoration: underline;
+  font-size: 18px;
+}
+h3{
+  color: rgb(96, 96, 96);
+}
+.app{
+  color: rbg(96,96,96);
+  margin-left: 190px;
+  margin-top: -200px;
+}
+.app a{
+  text-decoration: underline;
+  text-decoration-color: rgb(0,0,205);
+  color: rgb(96,96,96);
+}
+
+.app1{
+  color: rbg(96,96,96);
+  margin-left: 190px;
+  margin-top: -230px;
+}
+#we{
+  color: rbg(96,96,96);
+}
+.sea{
+  margin-left: 180px;
+  margin-top: -290px;
+}
+.sea input[type="text"]{
+
+}
+.log6{
+  margin-top: -395px;
+  margin-right: 20px;
+  float: right;
+}
+.log6 a{
+  color: rgb(192, 192, 192);
+  text-decoration: underline;
+  font-size: 18px;
+}
+.new1{
+  margin-left: 200px;
+  margin-top: 70px;
+font-size: 20px;
+
+}
+.new1 input[type="date"]{
+  width: 320px;
+}
+#head2{
+  width: 90px;
+  height: 25px;
+  border-radius: 5px;
+}

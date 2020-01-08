@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Create</title>
+  <link rel="stylesheet" href="pat.css">
+  <script>
+  function valid(){
+    var y=document.forms["first"]["pass"];
+    var z=document.forms["first"]["cpass"];
+    if(y.value.length<6){
+      window.alert("Password must be atleast six characters long");
+      y.focus();
+      return false;
+    }
+    if(z.value.length<6){
+      window.alert("password must be atleast six characters long");
+      z.focus();
+      return false;
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="top">
+      <a href="login1.htm" class="head" style="font-size: 40px;">Advance Clinic</a>
+<div class="up">
+      <ul>
+        <li><a href="login1.htm">Home</a></li>
+
+        <li class="active"><a href="contact.htm">contact</a></li>
+      </ul>
+    </div>
+    </div>
+  <div class="new">
+    <h1>Create Your account</h1>
+  <form  name="first" action="start.php" target="_self" method="post" onsubmit="return valid()">
+<input type="text" placeholder="First name" name="name" onkeypress="return (event.charCode>64 && event.charCode<91) ||(event.charCode>96 && event.charCode<123)"required><br>
+<input type="email" placeholder="E-mail" name="mail" required><br>
+<input type="text" placeholder="Address" name="add" required><br>
+<input type="text" placeholder="Gender" name="gen" onkeypress="return (event.charCode>64 && event.charCode<91) ||(event.charCode>96 && event.charCode<123)"required><br>
+<input type="password" placeholder="Password" name="pass"required ><br>
+<input type="password" placeholder="Confirm Password" name="cpass" required><br>
+<button id="head" type="submit" ><b>Register</b></button>
+  </form>
+  <a id="head1" href="Login.htm">Already have an account?</a>
+</div>
+<br><br><br><br>
+<footer>
+<div class="footer1">
+<div class="footer">
+    <ul>
+    <li><a href="login1.htm">Home</a></li>
+    <li><a href="contact.htm">contact</a></li>
+  </ul>
+</div>
+</div>
+</footer>
+</body>
+</html>

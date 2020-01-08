@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="login.css">
+  <script>
+  function valid(){
+    var x=document.forms["first"]["mail"].value;
+    var y=document.forms["first"]["pass"].value;
+    if(x=="" || y=="")
+  {
+    alert("Fill both the fields!");
+    return false;
+  }
+  }
+  </script>
+</head>
+<body>
+  <div class="new1">
+    <h1>Login</h1>
+  <form name="first" action="pha.php" target="_self" method="post" onsubmit="return valid()">
+<input type="email" placeholder="E-mail" name="mail"><br>
+<input type="password" placeholder="Password" name="pass"><br>
+<button id="head2" type="submit" ><b>Sign Up</b></button>
+  </form>
+</div>
+</body>
+</html>
