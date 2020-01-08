@@ -1,0 +1,206 @@
+body{
+  background-image: url("head.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+a{
+  text-decoration: none;
+}
+.top{
+  background-color: rgba(224, 224,224, 0.3);
+  background-repeat: no-repeat;
+  height: 67px;
+  width: 100%;
+}
+.top ul li{
+  display: inline-block;
+  float: left;
+  border-left: 1px solid rgb(31, 132, 224);
+}
+.up{
+  float: right;
+  margin-top: -30px;
+}
+.top ul li a{
+  font-family: 'Ropa Sans', sans-serif;
+  background:#3391E7;
+  color: #fff;
+  text-transform: uppercase;
+  padding:30px;
+}
+h2{
+  color: rgb(128,128,128);
+}
+.top ul li a{
+  display: block;
+
+}
+.font{
+  color: rgb(64,64,64);
+}
+.top ul li a:hover{
+}
+.head{
+  margin-left: 25px;
+  margin-top: 2px;
+}
+.top li.active> a, .top li> a:hover {
+	background: rgb(50, 133, 209);
+	border-left-color:rgb(50, 133, 209);
+}
+.act{
+  height:130px;
+}
+.contact-form{
+	position:relative;
+	padding-bottom:30px;
+ margin-left:290px;
+
+}
+.contact-form div{
+	padding:5px 0;
+}
+.contact-form span{
+	display:block;
+	font-size:1em;
+	color: rgb(139, 139, 139);
+	padding-bottom:5px;
+	font-family: 'Ropa Sans', sans-serif;
+}
+.contact-form input[type="text"],.contact-form textarea{
+		    padding:8px;
+			display:block;
+			width:90%;
+			background:#fcfcfc;
+			border: none;
+			outline:none;
+			color:rgb(139, 139, 139);
+			font-size:0.8125em;
+			font-family:Arial, Helvetica, sans-serif;
+
+}
+.contact-form input[type="Email"],.contact-form textarea{
+		    padding:8px;
+			display:block;
+			width:90%;
+			background:#fcfcfc;
+			border: none;
+			outline:none;
+			color:rgb(139, 139, 139);
+			font-size:0.8125em;
+			font-family:Arial, Helvetica, sans-serif;
+
+}.contact-form input[type="tel"],.contact-form textarea{
+		    padding:8px;
+			display:block;
+			width:90%;
+			background:#fcfcfc;
+			border: none;
+			outline:none;
+			color:rgb(139, 139, 139);
+			font-size:0.8125em;
+			font-family:Arial, Helvetica, sans-serif;
+
+}
+.contact-form textarea{
+		resize:none;
+		height:120px;
+}
+.contact-form input[type="submit"]{
+  padding: 15px 20px;
+  float: left;
+  margin-top: 8px;
+  font-size: 1em;
+	font-family: 'Ropa Sans', sans-serif;
+	background: #3285d1;border: #fff 1px solid;	border-radius: 6px;
+}
+.contact-form input[type="submit"]:hover{
+	color: #000;
+}
+.contact-form input[type="submit"]:active{
+	background-color:#000;
+}
+
+.address{
+  margin-left: 25px;
+}
+
+#he{
+  float: left;
+}
+#h{
+  float: left;
+}
+h3{
+  color: rgb(255,51,51);
+}
+
+.head{
+  background-repeat: no-repeat;
+  height: 130px;
+  width: 90%;
+}
+.note{
+  background-color: rgba(204, 204, 255,0.3);
+  background-repeat: no-repeat;
+  height:350px;
+  width: 100%;
+  border-radius: 5px;
+
+}
+.era{
+  background-color: rgba(128,128,128, 0.3);
+  background-repeat: no-repeat;
+  height:330px;
+  width: 120%;
+  border-radius: 5px;
+  border-style: groove;
+}
+.new{
+  font-size: 20px;
+}
+.address{
+  float: left;
+}
+.he1{
+  float: left;
+}
+
+.list1 {
+  float: left;
+  padding-right: 30px;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+.list1 h2{
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+	font-family: 'Ropa Sans', sans-serif;
+	font-weight : normal;
+	letter-spacing: -1px;
+}
+.list1 h2:hover{
+  background-color:rgb(204, 0, 0);
+  border-radius: 5px;
+}
+.footer1{
+	background:#e0e7eb;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+
+}
+.footer{
+	float:left;
+}
+.footer ul li{
+	display:inline-block;
+}
+.footer ul li a{
+	font-family: 'Ropa Sans', sans-serif;
+	color:rgb(139, 139, 139);
+	text-transform: uppercase;
+	display: block;
+	margin-right:10px;
+}
